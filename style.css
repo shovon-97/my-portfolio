@@ -59,11 +59,39 @@ section {
 }
 .develop-image img {
     margin-top: 50px; 
+    margin-left: 100px;
     height: 70%;  
     width: 90%;
 }
+.develop-image {
+    background-image: url(shapes/shape-1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    float: left;
+}
 .develop-text {
     margin-top: 100px;
+    margin-left: 100px;
+}
+.global-text {
+    margin-top: 100px;
+}
+.global-image img {
+    margin-top: 50px;
+    height: 70%;  
+    width: 90%;
+}
+.global-image {
+    background-image: url(shapes/shape-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    padding-bottom: 300px;
+    float: right;
+}
+#global {
+    margin-left: 5%;
 }
 .form-style-1 {
 	margin:10px auto;
