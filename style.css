@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}   
+.first-heading{
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+    border-left: 3px solid;
+    border-radius: 5px;
+}
+.orange-highlight {
+    color: orange;
+}
+section {
+    display: flex;
+}
+.half-width {
+    width: 50%;
+}
+.half-width img {
+    width: 58%;
+    padding-left: 20%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.second-heading {
+    text-align: center;
+}
+.box {
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 60%;
+    width: 26%;
+    padding: 2%;
+}
+.box img {
+    height: 45%;
+    width: 45%;
+}
+#mission {
+    background-color: powderblue;
+}
+#vision {
+    margin-left: 5%;
+    background-color: palegoldenrod;
+}
+#goals {
+    margin-left: 5%;
+    background-color:pink;
+}
+.develop-image img {
+    margin-top: 50px; 
+    height: 70%;  
+    width: 90%;
+}
+.develop-text {
+    margin-top: 100px;
+}
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color:burlywood;
+    padding: 5px;
+}
+    
